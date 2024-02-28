@@ -48,13 +48,12 @@ for the course:
 1. Download this repository by running
    `git clone https://github.com/LTS5/iapr`.
 1. It is recommended to create an environment dedicated to this course with
-   `conda create -n iapr python=3.9.8`.
+   `conda create -n iapr python=3.9.18`.
 1. Activate the environment:
-   * Linux/macOS: `source activate iapr`.
+   * Linux/macOS: `conda activate iapr`.
    * Windows: `activate iapr`.
 1. Install the packages we will be using for this course:
-   * Linux/macOS: `pip install --upgrade -r requirements.txt`
-   * Windows: `conda install --file requirements.txt`
+   * `conda install notebook`
 1. You can deactivate the environment whenever you are done with `deactivate`
    
 [git]: https://git-scm.com
