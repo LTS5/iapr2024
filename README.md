@@ -26,7 +26,8 @@ the [EPFL] master course
 ### Labs instructions
 
 The lab assignments aim to impart practical implementation skills related to the topics covered in class and serve as preparation for the final project. The final project is a hands-on endeavor that consolidates the concepts covered throughout the course. The labs themselves are in the form of Jupyter Notebooks, and need to be solved in groups of **three students**. Please make your groups on Moodle before `March 8th`.
-For the submissions on Moodle, it is imperative to adhere to the naming convention `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb`, where 'x' denotes the lab number and SCIPER1, SCIPER2, and SCIPER3 represent the SCIPER of each group member.
+For the submissions on Moodle, it is imperative to adhere to the naming convention `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb`, where 'x' denotes the lab number and SCIPER1, SCIPER2, and SCIPER3 represent the SCIPER of each group member. Moreover, each member of the group MUST upload his/her copy of the notebook, i.e. we need one notebook upload per student per lab ! 
+
 To ensure uniformity and minimize code conflicts, we strongly advise following the provided `Installation Instructions` below.
 
 **Important Note:** Before submitting each notebook, please execute the command `Kernel > Restart & Run All` to run the entire notebook from scratch. This ensures that the code runs correctly. We will re-run each notebook during evaluation to verify the correctness of your code. Additionally, ensure that your code executes within a reasonable timeframe (less than 5 minutes).
