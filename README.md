@@ -52,8 +52,6 @@ for the course:
    * macOS: Double-click on the `.pkg` file.
    * Linux: Run `bash Anaconda3-latest-Linux-x86_64.sh` in your terminal.
 1. Open a terminal. For Windows: open the Anaconda Prompt from the Start menu.
-1. Install git if not already installed with `conda install git`.
-1. Follow git instructions in the `Github` section below.
 1. It is recommended to create an environment dedicated to this course with
    `conda create -n iapr python=3.9.18`.
 1. Activate the environment:
@@ -62,6 +60,8 @@ for the course:
 1. Install the packages we will be using for this course:
    * `conda install notebook`
 1. You can deactivate the environment whenever you are done with `deactivate`
+1. Install git if not already installed with `conda install git`.
+1. Follow git instructions in the `Github` section below.
    
 [git]: https://git-scm.com
 [python]: https://www.python.org
@@ -69,6 +69,18 @@ for the course:
 [anaconda]: https://anaconda.org
 [miniconda]: https://conda.io/miniconda.html
 [conda]: https://conda.io
+
+### Github
+
+Git serves as a valuable tool for collaborative teamwork. To seamlessly access the upcoming labs and projects we'll be releasing throughout the semester, and to facilitate collaboration using Git, we highly recommend following these steps:
+
+1. Initiate the process by creating a private repository, `<my_repo>`, on Github. Ensure that it **does not** include `README.md` and `.gitignore`.
+1. Clone your remote repository locally using the command: `git clone https://github.com/<my_repo>`.
+1. Establish the course repository, iapr, as a remote repository by executing the command: `git remote add upstream https://github.com/LTS5/iapr2024.git` (or use the SSH variant if preferred).
+1. Stay up-to-date by fetching and merging changes from the iapr repository into your local branch with: `git pull upstream main`.
+1. Once you've collected the code, push it to your remote repository: `git push origin main`.
+
+Throughout the semester, we will periodically update the `iapr` repository with new labs and the project. To sync with the latest data, execute `git pull upstream main`. Exercise caution for potential conflicts; it's advisable to rename your Juypter Notebooks to `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb` (See Lab instructions) to prevent accidental overwriting of your code during merges.
 
 ### Python editors
 
@@ -84,16 +96,3 @@ You can have Python and Markdown cells, hence it is very useful for
  * Run the command: `jupyter notebook`.
 
 [jupyter]: https://jupyter.org/
-
-
-### Github
-
-Git serves as a valuable tool for collaborative teamwork. To seamlessly access the upcoming labs and projects we'll be releasing throughout the semester, and to facilitate collaboration using Git, we highly recommend following these steps:
-
-1. Initiate the process by creating a private repository, `<my_repo>`, on Github. Ensure that it **does not** include `README.md` and `.gitignore`.
-1. Clone your remote repository locally using the command: `git clone https://github.com/<my_repo>`.
-1. Establish the course repository, iapr, as a remote repository by executing the command: `git remote add upstream https://github.com/LTS5/iapr2024.git` (or use the SSH variant if preferred).
-1. Stay up-to-date by fetching and merging changes from the iapr repository into your local branch with: `git pull upstream main`.
-1. Once you've collected the code, push it to your remote repository: `git push origin main`.
-
-Throughout the semester, we will periodically update the `iapr` repository with new labs and the project. To sync with the latest data, execute `git pull upstream main`. Exercise caution for potential conflicts; it's advisable to rename your Juypter Notebooks to `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb` (See Lab instructions) to prevent accidental overwriting of your code during merges.
