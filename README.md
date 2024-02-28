@@ -23,6 +23,14 @@ the [EPFL] master course
 [epfl]: https://www.epfl.ch/
 [edu]: https://edu.epfl.ch/coursebook/en/image-analysis-and-pattern-recognition-EE-451
 
+### Labs instructions
+
+The lab assignments aim to impart practical implementation skills related to the topics covered in class and serve as preparation for the final project. The final project is a hands-on endeavor that consolidates the concepts covered throughout the course. The labs themselves are in the form of Jupyter Notebooks, and need to be solved in groups of **three students**.
+For submission, it is imperative to adhere to the naming convention `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb`, where 'x' denotes the lab number and SCIPER1, SCIPER2, and SCIPER3 represent the SCIPER of each group member.
+To ensure uniformity and minimize code conflicts, we strongly advise following the provided `Installation Instructions` below.
+
+**Important Note:** Before submitting each notebook, please execute the command `Kernel > Restart & Run All` to run the entire notebook from scratch. This ensures that the code runs correctly. We will re-run each notebook during evaluation to verify the correctness of your code. Additionally, ensure that your code executes within a reasonable timeframe (less than 5 minutes).
+
 ## Installation instructions
 
 ### Python and packages
@@ -45,8 +53,7 @@ for the course:
    * Linux: Run `bash Anaconda3-latest-Linux-x86_64.sh` in your terminal.
 1. Open a terminal. For Windows: open the Anaconda Prompt from the Start menu.
 1. Install git if not already installed with `conda install git`.
-1. Download this repository by running
-   `git clone https://github.com/LTS5/iapr`.
+1. Follow git instructions in the `Github` section below.
 1. It is recommended to create an environment dedicated to this course with
    `conda create -n iapr python=3.9.18`.
 1. Activate the environment:
@@ -77,3 +84,16 @@ You can have Python and Markdown cells, hence it is very useful for
  * Run the command: `jupyter notebook`.
 
 [jupyter]: https://jupyter.org/
+
+
+### Github
+
+Git serves as a valuable tool for collaborative teamwork. To seamlessly access the upcoming labs and projects we'll be releasing throughout the semester, and to facilitate collaboration using Git, we highly recommend following these steps:
+
+1. Initiate the process by creating a private repository, `<my_repo>`, on Github. Ensure that it **does not** include `README.md` and `.gitignore`.
+1. Clone your remote repository locally using the command: `git clone https://github.com/<my_repo>`.
+1. Establish the course repository, iapr, as a remote repository by executing the command: `git remote add upstream https://github.com/LTS5/iapr2024.git` (or use the SSH variant if preferred).
+1. Stay up-to-date by fetching and merging changes from the iapr repository into your local branch with: `git pull upstream main`.
+1. Once you've collected the code, push it to your remote repository: `git push origin main`.
+
+Throughout the semester, we will periodically update the `iapr` repository with new labs and the project. To sync with the latest data, execute `git pull upstream main`. Exercise caution for potential conflicts; it's advisable to rename your Juypter Notebooks to `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb` (See Lab instructions) to prevent accidental overwriting of your code during merges.
