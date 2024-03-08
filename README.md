@@ -1,12 +1,13 @@
 # Image Analysis and Pattern Recognition
 
 ## General information
-* Lecturer: [Jean-Philippe Thiran][jpt]
+* Lecturer(s): [Jean-Philippe Thiran][jpt], [Behzad Bozorgtabar][bb]
 * [EE-451 coursebook][coursebook]
 * [Moodle][moodle]
 
 [moodle]: https://moodle.epfl.ch/course/view.php?id=5091
 [jpt]: https://people.epfl.ch/115534
+[bb]: https://people.epfl.ch/behzad.bozorgtabar
 [coursebook]: https://edu.epfl.ch/coursebook/en/image-analysis-and-pattern-recognition-EE-451
 
 ### Objective of this course
