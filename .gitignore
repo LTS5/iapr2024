@@ -391,3 +391,13 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,pycharm,python,visualstudiocode,linux,windows,macos
+
+labs/lab_01_iapr_ta.ipynb
+labs/lab_02_iapr_ta.ipynb
+labs/lab_03_iapr_ta.ipynb
+generate_features_lab_03.py
+timm-0.5.4.tar
+ctranspath.pth
+ctranspath.py
+data/data_lab_03/part_02/dhmc*
+convert.py 

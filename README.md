@@ -27,11 +27,12 @@ the [EPFL] master course
 ### Labs instructions
 
 The lab assignments aim to impart practical implementation skills related to the topics covered in class and serve as preparation for the final project. The final project is a hands-on endeavor that consolidates the concepts covered throughout the course. The labs themselves are in the form of Jupyter Notebooks, and need to be solved in groups of **three students**. Please make your groups on Moodle before `March 8th`.
-For the submissions on Moodle, it is imperative to adhere to the naming convention `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb`, where 'x' denotes the lab number and SCIPER1, SCIPER2, and SCIPER3 represent the SCIPER of each group member. Moreover, each member of the group MUST upload his/her copy of the notebook, i.e. we need one notebook upload per student per lab ! 
+
+It is important to note that the labs will be **graded**. For each lab, each group is required to submit one Jupyter notebook on Moodle, following the naming convention `lab_x_SCIPER1_SCIPER2_SCIPER3.ipynb`, where 'x' indicates the lab number, and SCIPER1, SCIPER2, and SCIPER3 denote the SCIPER of each group member.
 
 To ensure uniformity and minimize code conflicts, we strongly advise following the provided `Installation Instructions` below.
 
-**Important Note:** Before submitting each notebook, please execute the command `Kernel > Restart & Run All` to run the entire notebook from scratch. This ensures that the code runs correctly. We will re-run each notebook during evaluation to verify the correctness of your code. Additionally, ensure that your code executes within a reasonable timeframe (less than 5 minutes).
+**Important Note:** Before submitting each notebook, please execute the command `Kernel > Restart & Run All` to run the entire notebook from scratch. This ensures that the code runs correctly. We will re-run each notebook during evaluation to verify the correctness of your code.
 
 ## Installation instructions
 
@@ -76,7 +77,7 @@ for the course:
 
 Git serves as a valuable tool for collaborative teamwork. To seamlessly access the upcoming labs and projects we'll be releasing throughout the semester, and to facilitate collaboration using Git, we highly recommend following these steps:
 
-1. Initiate the process by creating a private repository for your group, `<my_group_repo>`, on Github. Ensure that it **does not** include `README.md` and `.gitignore`.
+1. Initiate the process by creating a private **empty** repository for your group, `<my_group_repo>`, on Github. Ensure that it **does not** include `README.md` and `.gitignore`.
 1. Clone your group remote repository locally using the command: `git clone https://github.com/<my_group_repo>`.
 1. Establish the course repository, iapr, as a remote repository by executing the command: `git remote add upstream https://github.com/LTS5/iapr2024.git` (or use the SSH variant if preferred).
 1. Stay up-to-date by fetching and merging changes from the iapr repository into your local branch with: `git pull upstream main`.
