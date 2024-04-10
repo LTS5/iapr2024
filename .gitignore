@@ -395,6 +395,9 @@ $RECYCLE.BIN/
 labs/lab_01_iapr_ta.ipynb
 labs/lab_02_iapr_ta.ipynb
 labs/lab_03_iapr_ta.ipynb
+project/iapr_project_ta.ipynb
+project/precomputed/*
+
 generate_features_lab_03.py
 timm-0.5.4.tar
 ctranspath.pth
